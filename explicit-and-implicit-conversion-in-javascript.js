@@ -37,6 +37,6 @@ console.log(message);
 console.log(typeof message);
 
 let isActive = undefined / 2;
-let equation = String(isActive);
+let equation = String(isActive); 
 console.log(equation + " is the answer");
-console.log(typeof equation);
+console.log(typeof equation); //using String() converts undefined as undefined is considered a number.
